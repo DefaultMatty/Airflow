@@ -71,3 +71,13 @@ When you're done, you can stop the containers with:
 bash
 Copy code
 docker-compose down
+
+
+
+get fernet key by doing below in terminal 
+-m venv airflow_env
+.\airflow_env\Scripts\activate
+pip install cryptography
+python fernetkey.py
+
+Copy into .env file
